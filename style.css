@@ -7,7 +7,7 @@
 .container {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://i.postimg.cc/nVy1Yr70/IMG-2934.jpg);
   background-position: center;
   background-size: cover;
   padding-left: 8%;
@@ -18,33 +18,11 @@
   height: 12%;
   display: flex;
   align-items: center;
-}
-.logo {
-  width: 50px;
-  cursor: pointer;
-}
-.menu-icon {
-  width: 30px;
-  cursor: pointer;
-  margin-left: 40px;
-}
-nav {
-  flex: 1;
-  text-align: right;
-}
-nav ul li {
-  list-style: none;
-  display: inline-block;
-  margin-left: 60px;
-}
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 13px;
+
 }
 .row {
   display: flex;
-  height: 88%;
+  height: 78%;
   align-items: center;
 }
 .col {
@@ -52,7 +30,7 @@ nav ul li a {
 }
 h1 {
   color: #fff;
-  font-size: 80px;
+  font-size: 100px;
 }
 p {
   color: #fff;
@@ -85,16 +63,16 @@ button {
   transition: transform 0.5s;
 }
  .card1{
-  background-image: url(img/pic-1.png);
+  background-image: url(https://i.postimg.cc/9f1V5zyh/IMG-2937.jpg);
  }
  .card2{
-  background-image: url(img/pic-2.png);
+  background-image: url(https://i.postimg.cc/qBNtwddR/IMG-2939.jpg);
  }
  .card3{
-  background-image: url(img/pic-3.png);
+  background-image: url(https://i.postimg.cc/506ts8TG/IMG-2940.jpg);
  }
  .card4{
-  background-image: url(img/pic-4.png);
+  background-image: url(https://i.postimg.cc/9FTD3t0H/IMG-2942.jpg);
  }
  .card:hover{
    transform: translateY(-10px);
