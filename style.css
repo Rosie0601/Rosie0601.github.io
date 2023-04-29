@@ -12,7 +12,7 @@
   background-size: 100px 100px;
   padding-left: 100%;
   padding-right: 100%;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 .navbar {
   height: 13%;
@@ -26,7 +26,7 @@
   align-items: center;
 }
 .col {
-  flex-basis: 50%;
+  flex-basis: 100%;
 }
 h1 {
   color: #fff;
