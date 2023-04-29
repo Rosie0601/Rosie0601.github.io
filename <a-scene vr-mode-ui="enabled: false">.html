@@ -1,0 +1,57 @@
+<a-scene vr-mode-ui="enabled: false">
+    
+    <!--  upload to https://imgur.com/upload 
+          then right click on the image
+          select copy image address
+          paste that 
+     -->
+    
+  <a-assets>
+    <img id="texture" src="https://i.postimg.cc/JnyzhTd4/image.png">
+  </a-assets>   
+
+  
+
+    <!--   edit here  -->
+  
+   <a-box 
+         width="8"
+         height="5.7"
+         depth="0.1"
+         position="0 1 0" 
+         rotation="0 180 0"               
+         src="#texture"
+         transparent="true"
+         alphaTest= "0.5"
+         env-map="#env"
+         metalness="1.0"
+         roughness="0.0"           
+         >                 
+   </a-box>
+  
+   <!--   stop editing here  -->
+ 
+  
+<!--  ignore camera   -->
+    <a-camera position="0 2 5"></a-camera>
+  
+<!--   ignore light   -->
+  <a-light type="ambient" color="#888"></a-light>
+  <a-light type="point" intensity="0.2" position="3 5 5"></a-light>
+  
+  <!--   ignore cubemap   -->
+    
+  <a-assets>
+      <a-cubemap id="env">
+        <img src="https://uriahgray20.github.io/ar/Daylight-Box_Right.jpg">
+        <img src="https://uriahgray20.github.io/ar/Daylight-Box_Left.jpg">
+        <img src="https://uriahgray20.github.io/ar/Daylight-Box_Top.jpg">
+        <img src="https://uriahgray20.github.io/ar/Daylight-Box_Bottom.jpg">
+        <img src="https://uriahgray20.github.io/ar/Daylight-Box_Front.jpg">
+        <img src="https://uriahgray20.github.io/ar/Daylight-Box_Back.jpg">
+      </a-cubemap>
+  </a-assets>     
+  
+  
+</a-scene>
+
