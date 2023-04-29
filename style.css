@@ -32,11 +32,13 @@
 h1 {
   color: #fff;
   font-size: 100px;
+  text-align: center;
 }
 p {
   color: #fff;
   font-size: 15px;
   line-height: 15px;
+  text-align: center;
 }
 button {
   width: 180px;
