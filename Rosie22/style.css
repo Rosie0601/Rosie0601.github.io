@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 161, 241);
+    background-color: rgb(255, 221, 237);
     font-size: 36px;
     margin: 0px;
 }
@@ -63,7 +63,7 @@ div.menu{
     text-align: center;
 }
 
-div.hahaha img{
+div.flower img{
     animation: circle 2s infinite alternate linear;
 }
 @keyframes circle{
