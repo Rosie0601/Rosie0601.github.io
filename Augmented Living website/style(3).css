@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    background: rgba(0, 0, 0, .2);
+}
+
+body {
+    background:  #c4c1d7;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #51647a;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background: #d0e5f4;
+    color: #fff;
+}
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    position: absolute;
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.header .w {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+.header a {
+  color: #fff;
+}
+.header .logo {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .logo .avatarBox {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  z-index: 99;
+  background: #fff;
+}
+.header .logo .avatarBox:hover {
+  transition: all 0.3s;
+  transform: translateY(60%) scale(1.6);
+}
+.header .logo .avatarBox .avatarImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.header .logo .avatarBox .avatarBoder {
+  position: absolute;
+  height: 176.48%;
+  width: 176.48%;
+  top: -38.33%;
+  left: -38.33%;
+  overflow: hidden;
+}
+.header .logo .avatarBox .avatarBoder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.header .nav {
+  display: flex;
+  height: 60%;
+}
+.header .nav li {
+  height: 100%;
+}
+.header .nav li a {
+  padding: 0 25px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border-radius: 25px;
+}
+.header .nav li a:hover {
+  transition: all 0.3s;
+  color: #262a33;
+  background: #fff;
+}
+.header-h {
+  height: 80px;
+}
+.banner {
+  margin-bottom: 230px;
+  position: relative;
+  height: 650px;
+  background: url(../images/1.jpg) no-repeat center;
+  background-size: cover;
+}
+.banner::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 35%;
+  background: linear-gradient(to bottom, rgba(245, 247, 250, 0), #f5f7fa);
+}
+.banner .playCont {
+  position: absolute;
+  left: 50%;
+  bottom: -200px;
+  transform: translateX(-50%);
+  width: 1200px;
+  height: 500px;
+  color: #545c63;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 10;
+  box-shadow: 0 12px 20px 0 rgba(95, 101, 105, 0.15);
+  display: flex;
+  justify-content: space-between;
+}
+.banner .playCont .left {
+  width: 850px;
+  border-radius: 8px;
+}
+.banner .playCont .left iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner .playCont .right {
+  flex: 1;
+  padding: 25px;
+}
+.banner .playCont .right .head {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.banner .playCont .right .head i {
+  font-style: normal;
+  font-size: 13px;
+  color: #666;
+}
+.banner .playCont .right ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 45px;
+}
+.banner .playCont .right ul li:hover {
+  transition: all 0.3s;
+  color: #feab2b;
+  cursor: pointer;
+}
+.banner .playCont .right ul li em {
+  font-style: normal;
+}
+.tit {
+  padding-left: 15px;
+  color: #feab2b;
+  border-left: 5px solid #feab2b;
+}
+.tit.color1 {
+  color: #000;
+  border-left: 5px solid #000;
+}
+.content .userCont {
+  display: flex;
+  justify-content: space-between;
+}
+.content .userCont .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  width: 19%;
+  height: 230px;
+  border-radius: 8px;
+  box-shadow: 0 12px 20px 0 rgba(95, 101, 105, 0.15);
+  background: #fff;
+  overflow: hidden;
+  cursor: pointer;
+}
+.content .userCont .item:hover {
+  transition: all 0.3s;
+  transform: translateY(-10px);
+}
+.content .userCont .item img {
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+.content .userCont .item div {
+  margin-bottom: 15px;
+}
+.content .list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.content .list .item {
+  margin-bottom: 25px;
+  width: 23%;
+  border-radius: 5px;
+  background: #fff;
+  overflow: hidden;
+}
+.content .list .item:hover {
+  transition: all 0.3s;
+  transform: translateY(-5px);
+}
+.content .list .item h4 {
+  padding: 10px 15px;
+}
+.content .list .item p {
+  padding: 5px 15px 10px;
+  color: #666;
+}
+.content .list .item img {
+  height: 185px;
+  object-fit: cover;
+}
+.content .showPic {
+  height: 600px;
+}
+.content .showPic li {
+  padding: 5px;
+  float: left;
+  width: 70%;
+  height: 50%;
+  overflow: hidden;
+}
+.content .showPic li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content .showPic li img:hover {
+  transition: all 0.3s;
+  transform: scale(1.2);
+}
+.content .showPic li:first-child {
+  width: 30%;
+  height: 100%;
+}
+.content .showPic2 {
+  height: 600px;
+}
+.content .showPic2 li {
+  padding: 5px;
+  float: left;
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+}
+.content .showPic2 li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content .showPic2 li img:hover {
+  transition: all 0.3s;
+  transform: scale(1.2);
+}
+.content .showPic2 li:first-child {
+  width: 100%;
+  height: 50%;
+}
+
+.avatarBox video{
+    width: 100%;
+height: 50%;
+
+}
+
+
+

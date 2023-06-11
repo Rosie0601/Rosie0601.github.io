@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    background: rgba(0, 0, 0, .2);
+}
+
+body {
+    background:  #d0e5f4;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #51647a;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background: #e1cfdf;
+    color: #fff;
+}
+
+div.intro{
+    font-size: 30px;
+    font-family: 'star';
+    margin-left: 20px;
+    margin-top: 150px;
+}
+
+.rightcorner{
+    margin-right: 40px;
+    width:10%;
+   float: right
+  }
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    position: absolute;
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  button,
+  input {
+    outline: none;
+    border: none;
+  }
+  img {
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  }
+  .py-3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .my-3 {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }
+  .mt-3 {
+    margin-top: 30px;
+  }
+  .mt-2 {
+    margin-top: 15px;
+  }
+  .mb-3 {
+    margin-bottom: 30px !important;
+  }
+  .shaow {
+    box-shadow: 0 12px 20px 0 rgba(95, 101, 105, 0.15);
+  }
+  .w {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+ 
+  .content .userCont .item div {
+    margin-bottom: 15px;
+  }
+  .content .list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .content .list .item {
+    margin-bottom: 25px;
+    width: 23%;
+    border-radius: 5px;
+    background: #fff;
+    overflow: hidden;
+  }
+  .content .list .item:hover {
+    transition: all 0.3s;
+    transform: translateY(-5px);
+  }
+  .content .list .item h4 {
+    padding: 10px 15px;
+  }
+  .content .list .item p {
+    padding: 5px 15px 10px;
+    color: #666;
+  }
+  .content .list .item img {
+    height: 185px;
+    object-fit: cover;
+  }
+  .content .showPic {
+    height: 600px;
+  }
+  .content .showPic li {
+    padding: 5px;
+    float: left;
+    width: 70%;
+    height: 50%;
+    overflow: hidden;
+  }
+  .content .showPic li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .content .showPic li img:hover {
+    transition: all 0.3s;
+    transform: scale(1.2);
+  }
+  .content .showPic li:first-child {
+    width: 30%;
+    height: 100%;
+  }
+  .content .showPic2 {
+    height: 600px;
+  }
+  .content .showPic2 li {
+    padding: 5px;
+    float: left;
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+  }
+  .content .showPic2 li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .content .showPic2 li img:hover {
+    transition: all 0.3s;
+    transform: scale(1.2);
+  }
+  .content .showPic2 li:first-child {
+    width: 100%;
+    height: 50%;
+  }
+  .content .textBox {
+    position: relative;
+    margin-bottom: 25px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 12px 20px 0 rgba(95, 101, 105, 0.15);
+  }
+  .content .textBox::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 150px;
+    height: 100%;
+    background: url(../images/2.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .content .textBox::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.3), #ffffff);
+  }
+  .content .textBox .user {
+    display: flex;
+    align-items: center;
+  }
+  .content .textBox .user img {
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .content .textBox .text {
+    padding: 20px;
+    width: calc(100% - 150px);
+  }
+  .content .textBox .text p {
+    line-height: 25px;
+    margin-bottom: 15px;
+  }
+  .content .textBox .text p:last-child {
+    margin-bottom: 0;
+  }
+  .content .about {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 12px 20px 0 rgba(95, 101, 105, 0.15);
+  }
+  .content .about .tit {
+    color: #feab2b;
+    border-left-color: #fff;
+  }
+  .content .about .ipt {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .content .about .ipt:hover {
+    transition: all 0.3s;
+    background: #feab2b;
+  }
+  .content .about .ipt img {
+    margin-right: 15px;
+    width: 25px;
+  }
+  .content .about .ipt input {
+    margin-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    height: 40px;
+    border: 1px solid #feab2b;
+  }
+  .content .about .ipt input:last-child {
+    margin-right: 0;
+  }
+  .content .about .ipt textarea {
+    padding: 15px;
+    width: 100%;
+    min-height: 230px;
+    resize: none;
+    outline: none;
+    border: 1px solid #feab2b;
+  }
+  .content .about .ipt button {
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background: #f5f7fa;
+    cursor: pointer;
+  }
+  .content .about .ipt button:hover {
+    transition: all 0.3s;
+    color: #fff;
+    background: #feab2b;
+    border: 1px solid #fff;
+  }
+  .content .log {
+    position: relative;
+    color: #545c63;
+  }
+  .content .log .head {
+    position: absolute;
+    bottom: 100%;
+    width: 100%;
+    padding: 15px;
+  }
+  .content .log .head h3 {
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+  .content .log .text {
+    margin-bottom: 25px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 12px 20px 0 rgba(95, 101, 105, 0.15);
+  }
+
